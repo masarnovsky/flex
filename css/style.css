@@ -6,7 +6,7 @@ html {
 	font-family:'Oswald';
 }
 
-body {
+header {
 	display: flex;
-	flex-direction: column;
+	justify
 }
