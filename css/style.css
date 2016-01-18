@@ -2,6 +2,10 @@ span, .nav-item > i {
 	color: #faa61a;
 }
 
+html {
+	font-family:'Oswald';
+}
+
 body {
 	display: flex;
 	flex-direction: column;
