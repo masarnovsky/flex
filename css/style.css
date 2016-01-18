@@ -7,10 +7,7 @@ footer {
 	justify-content: space-between;
 }
 
-ul {
-	
-}
-
 .footer-nav {
 	display: flex;
+	justify-content: space-between;
 }
