@@ -1,4 +1,4 @@
-span, .nav-item > i {
+span, .nav-item li > i {
 	color: #faa61a;
 }
 
@@ -6,7 +6,104 @@ html {
 	font-family:'Oswald';
 }
 
+body {
+	width: 80%;
+	margin: 0px auto;
+}
+
 header {
 	display: flex;
-	justify
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav-item {
+	list-style-type: none;
+	/*float: left;*/
+}
+
+.nav-item li {
+	display: inline;
+	margin-left: 10px;
+}
+
+.nav-item li i {
+	padding-right: 3px;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+.banner {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background: #faa61a;
+}
+
+.banner h1 {
+	font-family: 'Bebas';
+	font-size: 80px;
+	flex-basis: 100%;
+	margin: 20px 0px 20px 0px;
+}
+
+.panda-box {
+	display: flex;
+}
+
+.project-descr {
+	display: flex;
+	flex-direction: column;
+	flex: 0 278px;
+}
+
+.section-services {
+	display: flex;
+}
+
+.section-services:nth-child(1) {
+	flex: 1 1 0;
+}
+
+.section-services:nth-child(2) {
+	flex: 1.5 1 0;
+}
+
+.section-services:nth-child(3) {
+	flex: 1 1 0;
+}
+
+.clients {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: flex-end;
+}
+
+.clients h2 {
+	flex: 1 100%;
+}
+
+.clients ul {
+	padding-left: 0px;
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-basis: 100%;
+}
+
+.clients ul li {
+}
+
+.footer-nav ul{
+	list-style-type: none;
+}
+
+.footer-nav ul li {
+	display: inline;
+	margin-left: 10px;
 }

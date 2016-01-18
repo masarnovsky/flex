@@ -9,10 +9,12 @@
 	<title>flex</title>
 </head>
 <body>
-	<header class="row">
-		<div class="logo">
-			<a href="#"><img src="img/icon1.png">
-			<h2><b>Lipsum</b> Media</h2></a>
+	<header>
+		<div class="header-logo">
+		<ul>
+			<li><a href="#"><img src="img/icon1.png"></a></li>
+			<li><a><h2><b>Lipsum</b> Media</h2></a></li>
+		</ul>
 		</div>
 		<nav>
 			<ul class="nav-item">
@@ -27,9 +29,9 @@
 		</nav>
 	</header>
 
-	<section class="row ">
+	<section class="banner">
 		<h1>LIPSUM MEDIA PRESENTATION</h1>
-		<div>
+		<div class="panda-box">
 			<figure><img src="img/panda.png"></figure>
 			<aside>
 				<ul>
@@ -53,7 +55,7 @@
 			</aside>
 		</div>
 
-		<div>
+		<div class="project-descr">
 			<h2>PROJECT DESCRIPTION</h2>
 			<figure><img src="img/something.png"></figure>
 			<p></p>
@@ -61,7 +63,7 @@
 		</div>
 	</section>
 
-	<section class="row"> 
+	<section class="section-services"> 
 
 		<div> <!-- OUR SERVICES -->
 			<h2>OUR <span>SERVICES</span></h2>
@@ -79,7 +81,7 @@
 		<div> <!-- DID YOU KNOW -->
 			<h2>DID YOU <span>KNOW?</span></h2>
 			<p>
-				//
+				Ac tristique sagittis turpis dis purus egestas! Duis mus nec porttitor hac ac dictumst, porttitor eros adipiscing elementum tincidunt urna mus porttitor odio, non tristique adipiscing lorem, sed nec vel adipiscing sit, quis platea parturient sit adipiscing et massa . Risus, placerat. Augue etiam et dis velit ut, auctor et, duis dolor nunc nunc, augue nisi nascetur, porta
 			</p>
 			<div class="read-more">Read more <i class="fa fa-arrow-right"></i></div>
 		</div> <!-- DID YOU KNOW -->
@@ -93,10 +95,9 @@
 				<li><i class="fa fa-home"></i>50 Washington st. Sute 1048 lipsume 0644</li>
 			</ul>
 		</div> <!-- CONTACTS -->
-
 	</section>
 
-	<section class="row">
+	<section class="clients">
 		<h2>OUR <span>CLIENTS</span></h2>
 		<ul>
 			<li><img src="img/att.png"> </li>
@@ -108,13 +109,13 @@
 			</ul>
 	</section>
 
-	<footer class="row">
+	<footer>
 		<div class="footer-logo">
 			<a href="#"><img src="img/icon2.png">
 			<h3><b>Lipsum</b> Media</h3></a>
 		</div>
-		<div class="footer-nav">
-			<nav>
+		<div>
+			<nav class="footer-nav">
 				<ul>
 					<li>HOME</li>
 					<li>ABOUT</li>
