@@ -3,7 +3,7 @@ span, .nav-item li > i {
 }
 
 html {
-	font-family: 'Roboto', 'Oswald';
+	font-family: 'Roboto', sans-serif;
 }
 
 
@@ -215,13 +215,6 @@ margin: 0px;
 .contacts ul li {
 	margin-bottom: 5px;
 }
-/*
-ul.inLI {
-	list-style-type: none;
-	margin: 0px;
-	padding: 0px;
-}
-*/
 
 .contacts ul li i {
 	margin-right: 15px;
@@ -289,3 +282,20 @@ h4 {
 	align-self: flex-end;
 	font-weight: 400;
 }
+
+/*
+@media(max-width: 480px) {
+	nav ul {
+		width: 180px;
+		padding: 5px 0;
+		border: solid 1px #aaa;
+		background: #FAFAFA url(img/icon-menu.png) no-repeat 10px 11px;
+		border-radius: 5px;
+		box-shadow: 0 1px 2px rgba(0,0,0,.3);
+	}
+	nav li {
+		display: none;
+		margin: 0;
+	}
+}
+*/
