@@ -178,6 +178,22 @@ a {
 	aling-items: flex-start;
 }
 
+.clients {
+	padding: 20px;
+}
+
+.clients h2 {
+	margin: 0px;
+}
+
+.clients ul {
+	list-style-type: none;
+	padding: 0px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
 /*
 .panda-box {
 	display: flex;
