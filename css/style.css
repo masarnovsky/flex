@@ -52,7 +52,7 @@ a {
 .banner {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
+	justify-content: space-around;
 	background: #faa61a;
 }
 
@@ -123,14 +123,12 @@ a {
 .go {
 	display: flex;
 	flex-direction: column;
+	align-content: space-between;
 	padding: 7px;
 }
 
-.project-descr p {
-	font-size: 16px;
-	margin: 0px auto;
-	padding-top: 5px;
-	padding-bottom: 10px;
+.go p {
+	font-size: 16px;	
 }
 
 .read-more {
