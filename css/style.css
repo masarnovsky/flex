@@ -70,11 +70,16 @@ a {
 	padding-bottom: 40px; 
 }
 
+.panda  {
+	max-width:436px; 
+	max-height: 365;
+}
+
 .panda-aside {
 	color: #fff;
-	background: #000;
+	background: #000;/*
 	max-width: 436px;
-	max-height: 365px;
+	max-height: 365px;*/
 	display: flex;
 }
 
@@ -111,7 +116,9 @@ a {
 	flex: 0 278px;
 	background: #fff;
 	max-width: 436px;
-	max-height: 365px;
+	max-height: 365px; 
+
+	margin-bottom: 20px;
 }
 
 .project-descr h2 {
@@ -283,19 +290,575 @@ h4 {
 	font-weight: 400;
 }
 
-/*
-@media(max-width: 480px) {
-	nav ul {
-		width: 180px;
-		padding: 5px 0;
-		border: solid 1px #aaa;
-		background: #FAFAFA url(img/icon-menu.png) no-repeat 10px 11px;
-		border-radius: 5px;
-		box-shadow: 0 1px 2px rgba(0,0,0,.3);
+
+
+
+/*  FUUUUUL  */
+
+/* 992 - 1199 */
+
+@media(min-width: 992px) and (max-width: 1199px) {
+	body {
+		width: 100%;
 	}
-	nav li {
-		display: none;
-		margin: 0;
-	}
+
+	header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 20px;
 }
-*/
+
+.header-logo {
+	display: flex;
+	align-items: center;
+}
+
+.header-logo h2 {
+	font-weight: 200;
+	font-size: 30px;
+	margin-left: 5px;
+}
+
+.nav-item {
+	list-style-type: none;
+}
+
+.nav-item li {
+	display: inline;
+	margin-left: 10px;
+}
+
+.nav-item li i {
+	padding-right: 3px;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+.banner {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background: #faa61a;
+}
+
+.banner h1 {
+	font-family: 'Bebas';
+	font-size: 83px;
+	flex-basis: 100%;
+	text-align: center;
+	margin: 20px 0px 20px 0px;
+}
+
+.panda-box {
+	display: flex;
+	justify-content: space-around;
+	padding-bottom: 40px; 
+}
+
+.panda  {
+	max-width:436px; 
+	max-height: 365;
+}
+
+.panda-aside {
+	color: #fff;
+	background: #000;/*
+	max-width: 436px;
+	max-height: 365px;*/
+	display: flex;
+}
+
+.panda-aside ul {
+	list-style-type: none;
+	display: flex;
+	flex-direction: column;
+	padding: 0px;
+	justify-content: flex-start;
+	margin: 0px;
+}
+
+
+.panda-aside ul li {
+	margin-left: 10px;
+	padding-right: 10px;
+	display: flex;
+	flex-direction: column;
+}
+
+
+.panda-aside h3 {
+	align-self: flex-start;
+	color: #000;
+	background: #fff;
+	margin-bottom: 5px;
+	margin-top: 15px;
+	padding: 0px 5px 0px 5px;
+}
+
+.project-descr {
+	display: flex;
+	flex-direction: column;
+	flex: 0 278px;
+	background: #fff;
+	max-width: 436px;
+	max-height: 365px; 
+
+	margin-bottom: 20px;
+}
+
+.project-descr h2 {
+	align-self: flex-start;
+	font-size: 20px;
+	margin: 0px auto;
+}
+
+.go {
+	display: flex;
+	flex-direction: column;
+	align-content: space-between;
+	padding: 7px;
+}
+
+.go p {
+	font-size: 16px;	
+}
+
+.read-more {
+	align-self: flex-end;
+	color: #fff;
+	background: #000;
+}
+
+.read-more i {
+	background: #faa61a;
+	color: #000;
+	padding: 3px;
+}
+
+.section-services {
+	display: flex;
+	margin-top: 20px;
+}
+
+.services {
+	display: flex;
+	flex-direction: column;
+	flex: 1 1 0;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	padding: 20px;
+}
+
+.services h2, .contacts h2, .didyouknow h2{
+margin: 0px;
+}
+
+.services ul {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-around;
+	flex-direction: column;
+	list-style-type: none;
+	padding: 0px;
+}
+
+.services ul li {
+	margin-bottom: 5px;
+}
+
+.arr li i {
+	background: #faa61a;
+	padding: 3px;
+	margin-right: 7px;
+}
+
+.didyouknow {
+	flex: 1.5 1 0;
+	display: flex;
+	flex-direction: column;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	padding: 20px;
+}
+
+.didyouknow p{
+}
+
+.contacts {
+	flex: 1 1 0;
+	display: flex;
+	flex-direction: column;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	padding: 20px;
+}
+
+.contacts ul {
+	list-style-type: none;
+	padding: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	aling-items: flex-start;
+}
+
+.contacts ul li {
+	margin-bottom: 5px;
+}
+
+.contacts ul li i {
+	margin-right: 15px;
+}
+
+.clients {
+	padding: 20px;
+}
+
+.clients h2 {
+	margin: 0px;
+}
+
+.clients ul {
+	list-style-type: none;
+	padding: 0px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.footer-logo {
+	display: flex;
+	align-items: center;
+	flex: 0 0 200px;
+}
+
+.footer-logo h3 {
+	font-weight: 200;
+	font-size: 25px;
+	margin-left: 5px;
+}
+
+.right-side-footer {
+	align-self: flex-end;
+	display: flex;
+	flex-direction: column;
+	font-size: 15px;
+}
+
+.footer-nav ul{
+	flex: 1 auto;
+	list-style-type: none;
+	margin: 0px;
+}
+
+.footer-nav ul li {
+	display: inline;
+	margin-left: 10px;
+}
+
+hr {
+	width: 100%; 
+}
+
+h4 {
+	margin: 0px;	
+	align-self: flex-end;
+	font-weight: 400;
+}
+}
+
+
+
+/* 768 - 991 */
+
+
+@media(min-width: 768px) and (max-width: 991px) {
+
+	body {
+		width: 100%;
+	}
+
+	header {
+		flex-direction: column;
+	}
+
+	ul.nav-item  {
+		justify-content: center;
+		padding: 0px;
+	}
+
+	.nav-item {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.nav-item i {
+		display: none;
+	}
+
+	.banner {
+		display: flex;
+		justify-content: space-around;
+	} 
+
+	.banner h1 {
+		font-size: 50px;
+	}
+
+	.panda-box {
+	flex-basis: 300px;
+	justify-content: space-around;
+	padding-bottom: 20px
+}
+}
+
+
+/* 767 */
+
+@media(max-width: 767px) and (min-width: 461px){
+
+body {
+		width: 100%;
+	}
+
+	header {
+		flex-direction: column;
+	}
+
+	.banner h1 {
+
+		font-size: 45px;
+	}
+
+	ul.nav-item  {
+		justify-content: center;
+		padding: 0px;
+	}
+
+	.nav-item {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.nav-item i {
+		display: none;
+	}
+
+	.panda-box {
+	flex-direction: column;
+	flex: 0 300px;
+	padding-bottom: 20px
+}
+
+.panda {
+	max-width: 350px;
+}
+
+.panda-aside {
+	font-size: 13px;
+}
+
+.panda-aside ul {
+	padding: 10px;
+}
+
+	.project-descr {
+	margin-bottom: 20px;
+	flex: 0 300px;
+}
+
+.section-services {
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.services h2, .contacts h2, .didyouknow h2, .clients h2{
+	align-self: center;
+	border: 0px;
+}
+
+.services {
+	flex-basis: 100%;
+}
+
+.services ul {
+	align-self: center;
+}
+
+.didyouknow {
+	flex-basis: 100%;
+	align-self: center;
+	border-bottom: 1px solid #ccc;
+}
+
+.contacts {
+	flex-basis: 100%;
+	align-items: center;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+
+.clients  {
+	display: flex;
+	flex-direction: column;
+	align-items: space-between;
+}
+
+footer {
+	justify-content: center;
+}
+
+.right-side-footer {
+	display: none;
+}
+
+}
+
+
+
+/* 480 */
+
+
+
+
+@media(max-width: 480px){
+
+	body {
+		width: 100%;
+	}
+
+	header {
+		flex-direction: column;
+	}
+
+	ul.nav-item  {
+		justify-content: center;
+		padding: 0px;
+	}
+
+	.nav-item {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.nav-item i {
+		display: none;
+	}
+
+	.banner h1 {
+	font-family: 'Bebas';
+	font-size: 20px;
+	flex-basis: 100%;
+	text-align: center;
+	margin: 20px 0px 20px 0px;
+}
+
+.panda-box {
+	flex-direction: column;
+	flex: 0 278px;
+	padding-bottom: 20px
+}
+
+.panda {
+	max-width: 278px;
+}
+
+.panda-aside {
+	font-size: 13px;
+}
+
+.panda-aside ul {
+	padding: 10px;
+}
+
+.project-descr {
+	margin-bottom: 20px;
+}
+
+.project-descr h2 {
+	font-size: 15px;
+}
+
+.go p {
+	font-size: 14px;
+}
+
+.read-more {
+	align-self: center;
+}
+
+.section-services {
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.services h2, .contacts h2, .didyouknow h2, .clients h2{
+	align-self: center;
+}
+
+.services {
+	flex-basis: 100%;
+}
+
+.services ul {
+	align-self: center;
+}
+
+.didyouknow {
+	flex-basis: 100%;
+	align-self: center;
+	border-bottom: 1px solid #ccc;
+}
+
+.contacts {
+	flex-basis: 100%;
+	align-self: center;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+
+.clients  {
+	display: flex;
+	flex-direction: column;
+	align-items: space-between;
+}
+
+.clients ul{
+	flex-direction: column;
+}
+
+footer {
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.footer-logo {
+	height: 100px;
+	border-top: 1px solid #ccc;
+	padding: -40px 0px -40px 0px;
+}
+
+.footer-logo h3  {
+	font-size: 20px;
+}
+
+h4 {
+	align-self: center;
+}
+
+}
